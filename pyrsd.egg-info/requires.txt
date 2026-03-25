@@ -1,0 +1,11 @@
+numpy
+scipy
+opencv-python
+matplotlib
+
+[abel]
+PyAbel
+
+[denoising]
+sickit-image
+bm3d

@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: pyrsd
+Version: 0.0.1
+Summary: Rainbow Schlieren Deflectometry processing library
+Requires-Python: >=3.10
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: opencv-python
+Requires-Dist: matplotlib
+Provides-Extra: abel
+Requires-Dist: PyAbel; extra == "abel"
+Provides-Extra: denoising
+Requires-Dist: sickit-image; extra == "denoising"
+Requires-Dist: bm3d; extra == "denoising"
